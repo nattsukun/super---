@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1">
+
+        <ImageView
+            android:layout_width="302dp"
+            android:layout_height="97dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/lv"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="241dp"
+            android:layout_height="88dp"
+            android:id="@+id/button2"
+            android:background="@drawable/ezbt"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+            android:layout_width="241dp"
+            android:layout_height="88dp"
+            android:id="@+id/button3"
+            android:background="@drawable/nmbt"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="241dp"
+            android:layout_height="88dp"
+            android:id="@+id/button4"
+            android:background="@drawable/habt"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
